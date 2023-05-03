@@ -1,0 +1,168 @@
+body {
+    min-height: 320px;
+    max-width: 1500px;
+    background-color: #faebd7;
+}
+
+header{
+    position: flex;
+    background-color: #DC8F14;
+    top: 0;
+    left: 0;
+    width: 95%;
+    padding: 20px 30px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    background-color: #D96E1B;
+    color: white;
+    padding: 18px 12px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.produt{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.produt h2 {
+    color: #D96E1B;
+    font-family: 'Tiro Telugu', serif;
+    font-size: 1.8em;
+}
+
+img:hover {
+    transform: scale(1.1)
+}
+
+.cont h1 {
+    background-color: #D96E1B;
+    color: white;
+    padding: 18px 12px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.cont img {
+    margin: auto;
+    display: block;
+}
+
+.sobre img {
+    margin: auto;
+    display: block;
+}
+
+.sobre h1 {
+    background-color: #D96E1B;
+    color: white;
+    padding: 18px 12px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.sobre h4 {
+    color: #DC8F14;
+    text-align: center;
+}
+
+.sobre h2 {
+    background-color: #D96E1B;
+    color: white;
+    padding: 18px 12px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.sobre h3{
+    background-color: #DC8F14;
+    color: white;
+    padding: 18px 12px;
+    text-decoration: none;
+    font-family: 'Tiro Telugu', serif;
+}
+
+/* Hidra Bald */
+
+.hb img {
+    margin: auto;
+    display: block;
+}
+
+.hb h2 {
+    color: #7a3a09;
+    background-color: #DC8F14;
+    padding: 10px 29px;
+}
+
+.hb h3{
+    color: antiquewhite;
+    background-color: #D96E1B;
+    padding: 18px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.hb p {
+    text-align: center;
+}
+
+/* Sabonete Liquido */
+
+.sl img {
+    margin: auto;
+    display: block;
+}
+
+.sl h2 {
+    color: #7a3a09;
+    background-color: #DC8F14;
+    padding: 10px 29px;
+}
+
+.sl h3{
+    color: antiquewhite;
+    background-color: #D96E1B;
+    padding: 18px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.sl p {
+    text-align: center;
+}
+
+/* Sabonete em barra */
+
+.sb img {
+    margin: auto;
+    display: block;
+}
+
+.sb h2 {
+    color: #7a3a09;
+    background-color: #DC8F14;
+    padding: 10px 29px;
+}
+
+.sb h3{
+    color: antiquewhite;
+    background-color: #D96E1B;
+    padding: 18px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.sb p {
+    text-align: center;
+}
